@@ -3527,9 +3527,9 @@ input.tu-showplaceholder::placeholder {
 .tu-popsearchitem li:last-child::after {
   content: "";
 }
+
 .tu-popsearchitem li::after {
-  content: ",";
-  color: #ffffff;
+
 }
 
 .tu-success-storiesvtwo::after {
