@@ -2287,7 +2287,7 @@ input.tu-showplaceholder::placeholder {
 .tu-headerv2 .tu-afterlogin li > a,
 .tu-headerv2 .navbar-nav > .menu-item-has-children > a,
 .tu-headerv2 .tu-navbar .navbar-collapse .nav-item a {
-  color: #ffffff;
+  color: #000000;
 }
 .tu-headerv2 .tu-headerbtn a {
   background-color: #F97316;
