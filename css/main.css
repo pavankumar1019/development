@@ -3624,7 +3624,7 @@ input.tu-showplaceholder::placeholder {
   z-index: 1;
   position: relative;
   margin-top: -100px;
-  background: #0A0F26;
+  background: #111b49;
   padding: 200px 0 100px;
   overflow: hidden;
 }
