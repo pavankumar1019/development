@@ -742,9 +742,10 @@ h6 a:hover {
   padding-top: 20px;
 }
 .tu-maintitle p {
-  max-width: 800px;
+ 
   margin-bottom: 0;
 }
+
 .tu-maintitle > a {
   margin-top: 30px;
 }
@@ -3513,7 +3514,7 @@ input.tu-showplaceholder::placeholder {
 .tu-popsearchitem li a {
   display: inline-block;
   line-height: inherit;
-  color: #ffffff;
+
 }
 .tu-popsearchitem li a:hover {
   color: #1DA1F2;
@@ -8050,3 +8051,16 @@ input.tu-showplaceholder::placeholder {
 }
 
 /*# sourceMappingURL=main.css.map */
+.classlabel{
+background: white;
+}
+.topcourselabel{
+background: white;
+color: pink;
+padding: 10px;
+border-radius: 5px;
+}
+.tu-popsearchitem li a {
+font-weight: bolder;
+  color: #ff00ba;
+}
