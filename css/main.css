@@ -8064,3 +8064,14 @@ border-radius: 5px;
 font-weight: bolder;
   color: #ff00ba;
 }
+
+
+.bg{
+background-color: pink;
+width: fit-content;
+padding: 10px;
+}
+
+.underline{
+  border-bottom: 4px solid purple;
+}
