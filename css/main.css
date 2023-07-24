@@ -62,6 +62,317 @@
   transition: all 0.3s ease-in-out;
 }
 
+/*about section css*/
+.myboxshadow{
+   background-color: #F7F8FC;
+}
+
+.abouttext{
+    display:block ! important;
+    margin: 0 auto ! important;
+}
+/*about section css*/
+
+/*contact form*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  overflow: hidden;
+}
+
+.section-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 35px;
+}
+
+.sec-pad {
+  padding: 60px 0 0;
+  /*margin: 50px 0;*/
+  margin-top:1rem;
+}
+
+.contact-sec {
+  align-item: center;
+  display: flex;
+  background-color: #5cbde466;
+}
+
+.contact-sec .contact-ul li,
+.contact-ul b {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-wrap: break-word;
+}
+
+.contact-sec .contact-ul i {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.contact-detail a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-sec .contact-ul li b:hover {
+  color: #f93;
+}
+
+.contact-sec .contact-ul li .fa-location-dot {
+  color: #f44337;
+  border: 2px solid #f4433790;
+}
+
+.contact-sec .contact-ul li .fa-phone {
+  color: #00b055;
+  border: 2px solid #00b05590;
+}
+
+.contact-sec .contact-ul li .fa-envelope {
+  color: #ff6347;
+  border: 2px solid #ff634790;
+}
+
+.contact-detail span {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.contact-detail span a {
+  font-size: 20px;
+  padding: 6px 12px;
+  color: #000;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+.contact-detail span .fb {
+  color: #3b5998;
+  border: 3px solid #3b5998;
+}
+.contact-detail span .fb:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.contact-detail span .insta {
+  color: #833ab4;
+  border: 3px solid #833ab4;
+}
+.contact-detail span .insta:hover {
+  color: #fff;
+  background-color: #833ab4;
+}
+
+.contact-detail span .twitter {
+  color: #00acee;
+  border: 3px solid #00acee;
+}
+.contact-detail span .twitter:hover {
+  color: #fff;
+  background-color: #00acee;
+}
+
+form.contFrm {
+  max-width: 396px;
+  margin: auto;
+}
+
+.inptFld {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 0 0 10px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+}
+
+.contFrm textarea {
+  height: 75px;
+  padding-top: 5px;
+}
+.inptBtn {
+  height: 50px;
+  border: 0;
+  background: #00b055;
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Responcive css Start */
+
+@media (max-width: 991px) {
+  .sec-pad {
+    padding: 20px 0 0px;
+  }
+
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 18px;
+  }
+
+  .contact-sec .contact-ul i {
+    font-size: 14px;
+    padding: 6px;
+    margin-right: 6px;
+  }
+
+  .inptFld {
+    height: 40px;
+    margin: 0 0 10px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-detail span {
+    width: auto;
+  }
+  .contact-detail span a {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .contact-sec {
+    border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+  }
+
+  .contact-sec .contact-ul i {
+    border: none;
+  }
+  .inptFld {
+    height: 36px;
+    margin: 0 0 8px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 16px;
+  }
+}
+
+/*contact form*/
+
+/*faq*/
+*, *::after, *::before {
+  box-sizing: border-box;
+  
+  margin: 0;
+  padding: 0;
+}
+
+/*p {*/
+/*  line-height: 1.8;*/
+/*}*/
+
+
+
+/*main {*/
+/*  min-height: 100vh;*/
+  
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+  
+/*  padding : 1rem;*/
+/*}*/
+
+
+
+section.faq {
+  
+  
+  width: 100%;
+  /*max-width: 540px;*/
+  border-radius: 12px;
+  padding: 2em;
+  
+  background-color: white;
+  box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ===================== */
+/* ===================== */
+/* Code Here ↓ */
+
+.faq-container {
+  display: grid;
+  gap: 1em;
+}
+
+.faq-header {
+  padding: 1.2em 1em;
+  
+  font-weight: 600;
+  
+  background-color: whitesmoke;
+  
+  user-select: none;
+  cursor: pointer;
+}
+
+.faq-content {
+  padding: 1em;
+}
+
+
+
+
+
+/* Code Here ↑ */
+/* ===================== */
+/* ===================== */
+
+
+/*faq*/
+
 /** --- Transition V2 placeholder --- **/
 /** --- flex placeholder --- **/
 .tu-explore-content, .tu-posttag, .tu-my-ratingholder, .tu-rating-stars, .tu-syncthumbnail__content, .tu-Joincommunity, .tu-listinfo li span, .tu-listinfo li, .tu-listinfo, .tu-featureinclude li, .tu-serviceslist, .tu-icanteach > li, .tu-branchdetail li, .tu-nav-tabs .nav-item .nav-link, .tu-profilelinksbtn, .tu-languages, .tu-thumbnails, .tu-btnarea-two, .tu-status-filter, .tu-labels, .tu-boxsmtitle, .tu-box, .tu-boxitem .tu-btnrea, .tu-boxitem, .tu-popularplantop, .tu-planperks li span, .tu-plandetail h3, .tu-pricinglist, .tu-howit-steps_info, .tu-iconheart, .tu-service-list li span, .tu-service-list, .tu-listinginfo-img, .tu-listinginfo_btn, .tu-listinginfo_title, .tu-filterbtns, .tu-searchtags, .tu-sort, .tu-listview, .tu-commentright, .tu-coomentareaauth, .tu-commentlist, .tu-articleauth, .tu-articleauthor, .tu-taglist, .tu-sorttags, .tu-blogfeatures, .tu-blogiteminfo, .tu-sortarea, .tu-blogtitle, .tu-taglinks, .tu-postgallary, .tu-commenteditem, .tu-categorieslist li p, .tu-popsearchitem, .tu-popularsearches, .tu-authorname h5, .tu-authordetail, .tu-categories_title, .tu-categories, .tu-rating, .tu-instructors_footer, .tu-instructors_service-list, .tu-stats, .tu-brand .tu-maintitle h4, .tu-brand_list, .tu-banner_list, .tu-footercopyright_list, .tu-footercopyright_content, .tu-footerdevice, .tu-footerlistholder, .tu-footerlist, .sub-menu li, .tu-afterlogin, .tu-checksm input[type=checkbox] + label .tu-featureRating, .tu-inputicon,
@@ -377,7 +688,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 8px;
-  color: #1C1C1C;
+  color: #fff;
   letter-spacing: 0.005em;
 }
 
@@ -396,6 +707,9 @@ h4 a:hover,
 h5 a:hover,
 h6 a:hover {
   color: #1C1C1C;
+}
+h2.see-students {
+    color: #000;
 }
 
 /** ====== Social icon ====== **/
@@ -8056,7 +8370,7 @@ background: white;
 }
 .topcourselabel{
 background: white;
-color: pink;
+color: #6a307d;
 padding: 10px;
 border-radius: 5px;
 }
@@ -8067,9 +8381,10 @@ font-weight: bolder;
 
 
 .bg{
-background-color: pink;
+background-color: #6a307d;
 width: fit-content;
 padding: 10px;
+border-radius: 5px;
 }
 
 .underline{
