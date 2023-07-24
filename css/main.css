@@ -2421,8 +2421,8 @@ select[required] + .select2 .select2-selection__choice + .select2-search.select2
   width: 100%;
   align-items: center;
 }
-> .tu-inputicon span,
-> .tu-inputiconbtn span {
+.tu-inputicon span,
+.tu-inputiconbtn span {
   right: 10px;
   font-size: 16px;
   position: absolute;
@@ -8399,7 +8399,7 @@ border-radius: 5px;
 }
 
 .hov {
-  background: linear-gradient(180deg, rgba(91, 89, 216, 0.438), rgba(11, 9, 134, 0.705)) no-repeat;
+  background: linear-gradient(180deg, #6a307d, rgba(11, 9, 134, 0.705)) no-repeat;
   background-size: 0%;
   transition: .4s;
  
@@ -8420,7 +8420,7 @@ border-radius: 5px;
 }
 
 .hov2 {
-  background: linear-gradient(#6a307d 0 0) no-repeat;
+  background: linear-gradient(180deg, #6a307d, rgba(11, 9, 134, 0.705)) no-repeat;
   background-size: 100% 0%;
   background-position: 0% 100%;
   transition: .4s;
